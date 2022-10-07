@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21223" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fkd-UC-nxX">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21204"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Spider-Man-->
+        <scene sceneID="l1w-GM-cJM">
+            <objects>
+                <viewController id="wde-4l-yNV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Xr-nV-bhF">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9AD4EED8-0190-49A7-9CFE-8C6E99EB79B6" translatesAutoresizingMaskIntoConstraints="NO" id="XKI-NE-dHL">
+                                <rect key="frame" x="27" y="159" width="374" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Boe Bogdin be a Spider-Boe or Spider-Man" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cMB-uS-oU4">
+                                <rect key="frame" x="65" y="475" width="299" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A5955970-19B4-483C-A109-E67CCBDFD1D2_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="PDl-fJ-NaW">
+                                <rect key="frame" x="19" y="535" width="389" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="spx-XF-tnm"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Spider-Man" image="square.and.arrow.up.fill" catalog="system" selectedImage="square.and.arrow.up.fill" id="kSR-KV-iRE" customClass="OrangeVC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5zJ-bH-lzk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.663551401869157" y="733.47732181425488"/>
+        </scene>
+        <!--Seattle Seahawks-->
+        <scene sceneID="apb-4P-WIn">
+            <objects>
+                <viewController id="XP8-Yp-OtE" userLabel="Seattle Seahawks" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BWX-OW-i3F">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7656165E-5F7D-4627-BC7D-B977F72573A3" translatesAutoresizingMaskIntoConstraints="NO" id="H78-Ju-3qp">
+                                <rect key="frame" x="-45" y="85" width="497" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D3744022-741E-4B9B-9866-30415F028C70" translatesAutoresizingMaskIntoConstraints="NO" id="WCa-j5-3Hq">
+                                <rect key="frame" x="-100" y="480" width="607" height="363"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Boe Bogdin is a #12 Fan a Seattle Seahawks" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BGK-D1-7jc">
+                                <rect key="frame" x="20" y="436" width="350" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LGi-AK-sDl"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Seattle Seahawks" image="football.circle.fill" catalog="system" selectedImage="football.fill" id="JP3-hC-xAn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rmj-tU-1vl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.73831775700933" y="733.47732181425488"/>
+        </scene>
+        <!--Xbox-->
+        <scene sceneID="rhC-m0-JjT">
+            <objects>
+                <viewController id="1dA-06-jLc" userLabel="Xbox" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L3n-ya-gc7" colorLabel="IBBuiltInLabel-Red">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6BA13617-2AF8-40C2-9FE3-48D280F2317C" translatesAutoresizingMaskIntoConstraints="NO" id="HwA-yY-hmO">
+                                <rect key="frame" x="35" y="221" width="359" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Boe Bogdin a gamer on xbox" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aoq-DU-LzO">
+                                <rect key="frame" x="20" y="574" width="388" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GML-Il-eOs"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Xbox" image="x.circle.fill" catalog="system" selectedImage="x.circle.fill" id="8j5-iw-0Bh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O14-uq-QE9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1651.4018691588783" y="733.47732181425488"/>
+        </scene>
+        <!--Space jam-->
+        <scene sceneID="RbD-KW-hjn">
+            <objects>
+                <viewController id="3x4-ev-jMI" userLabel="Space jam" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jgF-Bq-1AV">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9477" translatesAutoresizingMaskIntoConstraints="NO" id="dxx-QF-pnQ">
+                                <rect key="frame" x="-32" y="47" width="492" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9609" translatesAutoresizingMaskIntoConstraints="NO" id="St7-m6-zZY">
+                                <rect key="frame" x="-19" y="499" width="467" height="368"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="vs" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Ac-WV-8EV">
+                                <rect key="frame" x="166" y="453" width="97" height="58.666666666666664"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tune Squard" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wfs-3S-oHe">
+                                <rect key="frame" x="135" y="376" width="176" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Goon Squard" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lsn-2w-Fhp">
+                                <rect key="frame" x="152" y="809" width="111" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qwv-Lf-DzP"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Space Jam" image="basketball.fill" catalog="system" selectedImage="basketball.fill" id="Hi7-h2-mmY">
+                        <color key="badgeColor" red="0.93938532419999998" green="0.96841138599999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGy-Mk-f1F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2456.0747663551401" y="733.47732181425488"/>
+        </scene>
+        <!--Soda-->
+        <scene sceneID="QVN-uY-3Cd">
+            <objects>
+                <viewController id="f9k-7F-Xe5" userLabel="Soda" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ler-Sn-N3M">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0454" translatesAutoresizingMaskIntoConstraints="NO" id="Syh-4F-VCn">
+                                <rect key="frame" x="92" y="64" width="240" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mountain Dew vs Root Beer " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gfg-Mq-Heh">
+                                <rect key="frame" x="30" y="441" width="378" height="44.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0455" translatesAutoresizingMaskIntoConstraints="NO" id="i0d-F7-ytF">
+                                <rect key="frame" x="7" y="524" width="425" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="L1L-Ic-v8S"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Soda" image="cup.and.saucer.fill" catalog="system" selectedImage="cup.and.saucer" id="1ge-Hq-ooN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G5j-GR-alU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3351.8691588785045" y="733.47732181425488"/>
+        </scene>
+        <!--Nike-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__7_Tab_Bar_Controllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="24224059-4EDE-4C4C-9FBD-F64902AE523E" translatesAutoresizingMaskIntoConstraints="NO" id="tsv-VA-NVj">
+                                <rect key="frame" x="20" y="47" width="388" height="464"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="75DF10C0-EFA5-43FB-B9FC-50B22D8C3AA0_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="dh3-IR-ZfG">
+                                <rect key="frame" x="28" y="454" width="380" height="472"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Boe Bogdin is Just Do it Nike" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a5K-D3-JkY">
+                                <rect key="frame" x="107" y="519" width="256" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Nike" image="square.and.arrow.down" catalog="system" selectedImage="square.and.arrow.down.on.square" id="wqd-an-2R5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-845.32710280373828" y="733.47732181425488"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UQe-Dx-bQk">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Fkd-UC-nxX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LJh-0Z-9EU">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="rxp-jA-RlT"/>
+                        <segue destination="wde-4l-yNV" kind="relationship" relationship="viewControllers" id="rfN-EL-utu"/>
+                        <segue destination="XP8-Yp-OtE" kind="relationship" relationship="viewControllers" id="77R-eX-vaJ"/>
+                        <segue destination="1dA-06-jLc" kind="relationship" relationship="viewControllers" id="BvP-mt-9fT"/>
+                        <segue destination="3x4-ev-jMI" kind="relationship" relationship="viewControllers" id="U5M-61-aGK"/>
+                        <segue destination="f9k-7F-Xe5" kind="relationship" relationship="viewControllers" id="0sy-pv-zAC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rf2-Uk-7tY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.692307692307693" y="-2.1327014218009479"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <image name="24224059-4EDE-4C4C-9FBD-F64902AE523E" width="2316" height="3088"/>
+        <image name="6BA13617-2AF8-40C2-9FE3-48D280F2317C" width="1440" height="1090"/>
+        <image name="75DF10C0-EFA5-43FB-B9FC-50B22D8C3AA0_1_105_c" width="1024" height="768"/>
+        <image name="7656165E-5F7D-4627-BC7D-B977F72573A3" width="480" height="480"/>
+        <image name="9AD4EED8-0190-49A7-9CFE-8C6E99EB79B6" width="480" height="480"/>
+        <image name="A5955970-19B4-483C-A109-E67CCBDFD1D2_1_105_c" width="649" height="1209"/>
+        <image name="D3744022-741E-4B9B-9866-30415F028C70" width="375" height="666"/>
+        <image name="IMG_0454" width="2268" height="4032"/>
+        <image name="IMG_0455" width="2268" height="4032"/>
+        <image name="IMG_9477" width="2268" height="4032"/>
+        <image name="IMG_9609" width="2268" height="4032"/>
+        <image name="basketball.fill" catalog="system" width="128" height="123"/>
+        <image name="cup.and.saucer" catalog="system" width="128" height="91"/>
+        <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
+        <image name="football.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="football.fill" catalog="system" width="128" height="119"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
+        <image name="square.and.arrow.down.on.square" catalog="system" width="122" height="128"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
+        <image name="x.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

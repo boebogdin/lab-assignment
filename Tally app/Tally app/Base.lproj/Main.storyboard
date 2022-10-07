@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tally_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="count by 1's, 2's, 3's 4's or other" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCl-68-a1z">
+                                <rect key="frame" x="20" y="149" width="353" height="34"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="966-2C-JfZ">
+                                <rect key="frame" x="20" y="283" width="353" height="102.66666666666669"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="86"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxW-AS-NsI">
+                                <rect key="frame" x="20.000000000000007" y="435.66666666666669" width="94.666666666666686" height="154.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="154.33000000000001" id="FN5-aE-56z"/>
+                                    <constraint firstAttribute="width" constant="94.670000000000002" id="kh0-wF-j5R"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="121"/>
+                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="plusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kHn-VM-8lh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dun-cb-Kh8">
+                                <rect key="frame" x="294" y="436" width="79" height="154"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="-">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="165"/>
+                                    <color key="baseForegroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="minesAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HjS-7F-gEP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yd3-ch-cEZ">
+                                <rect key="frame" x="20" y="635.66666666666663" width="353" height="57"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="37"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4T8-UX-Z0O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="dCl-68-a1z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6AO-CM-V61"/>
+                            <constraint firstItem="kxW-AS-NsI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bnb-6M-Kvw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yd3-ch-cEZ" secondAttribute="trailing" constant="20" id="D41-S3-F6Z"/>
+                            <constraint firstItem="dCl-68-a1z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="SCO-Ji-x5m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dun-cb-Kh8" secondAttribute="trailing" constant="20" id="YLD-6I-shD"/>
+                            <constraint firstItem="966-2C-JfZ" firstAttribute="top" secondItem="dCl-68-a1z" secondAttribute="bottom" constant="100" id="axf-t6-bwY"/>
+                            <constraint firstItem="966-2C-JfZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cLg-uV-aRN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dCl-68-a1z" secondAttribute="trailing" constant="20" id="cnr-He-yKB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="966-2C-JfZ" secondAttribute="trailing" constant="20" id="d97-dd-yYu"/>
+                            <constraint firstItem="dun-cb-Kh8" firstAttribute="top" secondItem="966-2C-JfZ" secondAttribute="bottom" constant="50" id="gRV-kI-oiv"/>
+                            <constraint firstItem="Yd3-ch-cEZ" firstAttribute="top" secondItem="966-2C-JfZ" secondAttribute="bottom" constant="250" id="ohs-52-xjF"/>
+                            <constraint firstItem="kxW-AS-NsI" firstAttribute="top" secondItem="966-2C-JfZ" secondAttribute="bottom" constant="50" id="tUm-Kb-LHD"/>
+                            <constraint firstItem="Yd3-ch-cEZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="to5-al-MiU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Label" destination="966-2C-JfZ" id="SQb-de-PRg"/>
+                        <outlet property="ResetButton" destination="Yd3-ch-cEZ" id="L40-HE-mDf"/>
+                        <outlet property="Textfield" destination="dCl-68-a1z" id="PcU-Uf-oi8"/>
+                        <outlet property="minusButton" destination="dun-cb-Kh8" id="5OB-ht-9iL"/>
+                        <outlet property="plusButton" destination="kxW-AS-NsI" id="iBi-Zt-dKr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
